@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>My Videos</title>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/darkly/bootstrap.min.css">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=ABeeZee">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Aguafina+Script">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Architects+Daughter">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Arizonia">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-</head>
-<body>
+{{> ../partials/header.hbs  title="My Videos"}}
 <div>
     <nav class="navbar navbar-default navigation-clean">
         <div class="container">
@@ -66,13 +51,4 @@
         </div>
     </div>
 </div>
-<div class="social-icons"><a href="https://www.facebook.com/makregio"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/marckregio"><i class="icon ion-social-twitter"></i></a>
-    <a href="https://www.instagram.com/marckregio/"><i class="icon ion-social-instagram"></i></a><a href="https://www.youtube.com/marckregio"><i class="icon ion-social-youtube"></i></a><a href="https://github.com/marckregio"><i class="icon ion-social-github"></i></a></div>
-<footer>
-    <p class="text-center" style="color:#666">2018 makregio</p>
-</footer>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
-<script type="text/javascript" src="dist/bundle.js"></script></body>
-</html>
+{{> ../partials/footer.hbs}}
