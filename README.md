@@ -9,7 +9,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ cd makunat
 $ npm install
-$ npm run dev
+$ npm run start
 ```
 
 For production environments...
@@ -18,4 +18,3 @@ For production environments...
 $ npm install
 $ npm run production
 ```
-
